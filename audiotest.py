@@ -1,8 +1,6 @@
 import wave
 import struct
 import numpy as np
-import matplotlib.pyplot as plt	
-
 sound_file = wave.open('Audio_1.wav', 'r') 
 file_length = sound_file.getnframes()
 print file_length
